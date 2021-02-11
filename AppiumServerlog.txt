@@ -1,0 +1,8 @@
+2017-08-21 10:14:04:915 - info: Welcome to Appium v1.4.16 (REV ae6877eff263066b26328d457bd285c0cc62430d)
+2017-08-21 10:14:04:917 - info: Appium REST http interface listener started on 0.0.0.0:4723
+2017-08-21 10:14:04:919 - info: [debug] Non-default server args: {"log":"D:\\TestProjects\\TestAutomation_PageFactory\\.\\AppiumServerlog.txt"}
+2017-08-21 10:14:04:920 - info: Console LogLevel: debug
+2017-08-21 10:14:04:920 - info: File LogLevel: debug
+2017-08-21 10:14:05:742 - info: --> GET /wd/hub/status {}
+2017-08-21 10:14:05:745 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.16","revision":"ae6877eff263066b26328d457bd285c0cc62430d"}}}
+2017-08-21 10:14:05:758 - info: <-- GET /wd/hub/status 200 15.818 ms - 105 {"status":0,"value":{"build":{"version":"1.4.16","revision":"ae6877eff263066b26328d457bd285c0cc62430d"}}}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="204078" started-at="2019-02-01T13:38:29Z" finished-at="2019-02-01T13:41:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="204078" started-at="2019-02-01T13:38:29Z" finished-at="2019-02-01T13:41:53Z">
+      <class name="com.test.dcx.ie.pom.testcases.CelcomDashboardTest">
+        <test-method status="PASS" signature="CelcomDashboardTest(java.util.Hashtable)[pri:0, instance:com.test.dcx.ie.pom.testcases.CelcomDashboardTest@ed7f8b4]" name="CelcomDashboardTest" duration-ms="203880" started-at="2019-02-01T13:38:30Z" data-provider="getData" finished-at="2019-02-01T13:41:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Mobileno=01115571837, Runmode=Y, Plandetails=FIRST Gold Plus for Business, Browser=Android_App}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CelcomDashboardTest -->
+      </class> <!-- com.test.dcx.ie.pom.testcases.CelcomDashboardTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

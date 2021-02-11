@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="139248" started-at="2019-01-30T14:16:11Z" finished-at="2019-01-30T14:18:30Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="139248" started-at="2019-01-30T14:16:11Z" finished-at="2019-01-30T14:18:30Z">
+      <class name="com.test.dcx.ie.pom.testcases.CelcomeApp_LoginTest">
+        <test-method status="PASS" signature="CelcomeApp_LoginTest(java.util.Hashtable)[pri:0, instance:com.test.dcx.ie.pom.testcases.CelcomeApp_LoginTest@c730b35]" name="CelcomeApp_LoginTest" duration-ms="130409" started-at="2019-01-30T19:46:11Z" data-provider="getData" finished-at="2019-01-30T19:48:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Mobileno=01115571837, Runmode=Y, OTP4=3, OTP3=0, OTP2=3, OTP1=1, Browser=Android_App}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CelcomeApp_LoginTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.test.dcx.ie.pom.testcases.CelcomeApp_LoginTest@c730b35]" name="quit" is-config="true" duration-ms="8715" started-at="2019-01-30T19:48:21Z" finished-at="2019-01-30T19:48:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.test.dcx.ie.pom.testcases.CelcomeApp_LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

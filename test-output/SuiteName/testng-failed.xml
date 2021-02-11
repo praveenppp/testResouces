@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteName]" parallel="tests">
+  <test thread-count="5" name="EuroPlay_SelectNumberTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.test.sogeti.ie.pom.testcases.EuroPlay_SelectNumberTest">
+        <methods>
+          <include name="EuroPlay_SelectNumberTest" invocation-numbers="0 1 2"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.test.sogeti.ie.pom.testcases.EuroPlay_SelectNumberTest -->
+    </classes>
+  </test> <!-- EuroPlay_SelectNumberTest(failed) -->
+  <test thread-count="5" name="LottoPlay_RandomNumberTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.test.sogeti.ie.pom.testcases.LottoPlay_RandomNumberTest">
+        <methods>
+          <include name="quit"/>
+          <include name="LottoPlay_RandomNumberTest" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.test.sogeti.ie.pom.testcases.LottoPlay_RandomNumberTest -->
+    </classes>
+  </test> <!-- LottoPlay_RandomNumberTest(failed) -->
+  <test thread-count="5" name="Book Twoway ticket Test2(failed)" parallel="tests">
+    <classes>
+      <class name="com.test.sogeti.ie.pom.testcases.LottoPlay_QuickPickTest">
+        <methods>
+          <include name="quit"/>
+          <include name="LottoPlay_QuickPickTest" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.test.sogeti.ie.pom.testcases.LottoPlay_QuickPickTest -->
+    </classes>
+  </test> <!-- Book Twoway ticket Test2(failed) -->
+  <test thread-count="5" name="IWG_LuckInLoveTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.test.sogeti.ie.pom.testcases.IWG_LuckInLoveTest">
+        <methods>
+          <include name="quit"/>
+          <include name="IWG_LuckInLoveTest" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.test.sogeti.ie.pom.testcases.IWG_LuckInLoveTest -->
+    </classes>
+  </test> <!-- IWG_LuckInLoveTest(failed) -->
+  <test thread-count="5" name="Book Twoway ticket Test3(failed)" parallel="tests">
+    <classes>
+      <class name="com.test.sogeti.ie.pom.testcases.LottoPlay_SelectNumberTest">
+        <methods>
+          <include name="quit"/>
+          <include name="LottoPlay_SelectNumberTest" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.test.sogeti.ie.pom.testcases.LottoPlay_SelectNumberTest -->
+    </classes>
+  </test> <!-- Book Twoway ticket Test3(failed) -->
+  <test thread-count="5" name="LottoPlay_NonLoggedInUser_QuickPickTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.test.sogeti.ie.pom.testcases.LottoPlay_NonLoggedInUser_QuickPickTest">
+        <methods>
+          <include name="quit"/>
+          <include name="LottoPlay_NonLoggedInUser_QuickPickTest" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.test.sogeti.ie.pom.testcases.LottoPlay_NonLoggedInUser_QuickPickTest -->
+    </classes>
+  </test> <!-- LottoPlay_NonLoggedInUser_QuickPickTest(failed) -->
+  <test thread-count="5" name="LottoPlay_DuplicateSelectNumberTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.test.sogeti.ie.pom.testcases.LottoPlay_DuplicateSelectNumberTest">
+        <methods>
+          <include name="quit"/>
+          <include name="LottoPlay_DuplicateSelectNumberTest" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.test.sogeti.ie.pom.testcases.LottoPlay_DuplicateSelectNumberTest -->
+    </classes>
+  </test> <!-- LottoPlay_DuplicateSelectNumberTest(failed) -->
+  <test thread-count="5" name="DailyMillionPlay_QuickPickTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.test.sogeti.ie.pom.testcases.DailyMillionPlay_QuickPickTest">
+        <methods>
+          <include name="quit"/>
+          <include name="DailyMillionPlay_QuickPickTest" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.test.sogeti.ie.pom.testcases.DailyMillionPlay_QuickPickTest -->
+    </classes>
+  </test> <!-- DailyMillionPlay_QuickPickTest(failed) -->
+  <test thread-count="5" name="LottoPlay_NonLoggedInUser_SelectNumberTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.test.sogeti.ie.pom.testcases.LottoPlay_NonLoggedInUser_SelectNumberTest">
+        <methods>
+          <include name="LottoPlay_NonLoggedInUser_SelectNumberTest" invocation-numbers="0 1 2"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.test.sogeti.ie.pom.testcases.LottoPlay_NonLoggedInUser_SelectNumberTest -->
+    </classes>
+  </test> <!-- LottoPlay_NonLoggedInUser_SelectNumberTest(failed) -->
+  <test thread-count="5" name="LottoPlay_MyLastTicketTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.test.sogeti.ie.pom.testcases.LottoPlay_MyLastTicketTest">
+        <methods>
+          <include name="quit"/>
+          <include name="LottoPlay_MyLastTicketTest" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.test.sogeti.ie.pom.testcases.LottoPlay_MyLastTicketTest -->
+    </classes>
+  </test> <!-- LottoPlay_MyLastTicketTest(failed) -->
+  <test thread-count="5" name="E2E_DBG_PLITest(failed)" parallel="tests">
+    <classes>
+      <class name="com.test.sogeti.ie.pom.testcases.E2E_DBG_PLITest">
+        <methods>
+          <include name="LottoPlay_SelectNumberTest" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.test.sogeti.ie.pom.testcases.E2E_DBG_PLITest -->
+    </classes>
+  </test> <!-- E2E_DBG_PLITest(failed) -->
+  <test thread-count="5" name="IWG_MoneyMultipliersDigital20XTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.test.sogeti.ie.pom.testcases.IWG_MoneyMultipliersDigital20XTest">
+        <methods>
+          <include name="quit"/>
+          <include name="IWG_MoneyMultipliersDigital20XTest" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- com.test.sogeti.ie.pom.testcases.IWG_MoneyMultipliersDigital20XTest -->
+    </classes>
+  </test> <!-- IWG_MoneyMultipliersDigital20XTest(failed) -->
+</suite> <!-- Failed suite [SuiteName] -->

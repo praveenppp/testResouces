@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SuiteName" parallel="tests">
+	
+	<test name="LottoPlay_RandomNumberTest" allow-return-values="true">
+		<classes>
+			<class name="com.test.dcx.ie.pom.testcases.CelcomeApp_LoginTest" />
+		</classes>
+	</test>
+	
+</suite>
+
